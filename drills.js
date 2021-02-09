@@ -130,4 +130,13 @@ function fibo(n) {
   return fibo(n - 1) + fibo(n - 2);
 }
 
-console.log(fibo(6));
+// console.log(fibo(6));
+
+function fact(n) {
+  if (n === 1) {
+    return n;
+  }
+  return fact(n - 1) * n;
+}
+
+console.log(fact(10));
